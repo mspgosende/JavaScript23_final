@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "type": "Vinyls",
+        "name": "The Sparks, 'HalfNelson' (1971)",
+        "description": "In 1972 this album is re-released, the name of the band becomes 'Sparks' (same members, same songs with a different jacket).Unlike most other early pressings of this record, this particular version did not come with a Warner Bros. company inner sleeve nor did it come with a lyric insert. These copies appear to be hastily put together to use up the old jackets",
+        "price": 11
+    },
+    {
+        "id": 2,
+        "type": "Vinyls",
+        "name": "La casa azul, 'Prometo No Olvidar'(2023)",
+        "description": "Se agotan los calificativos para Guille Milkyway y su capacidad de construir un cancionero pluscuamperfecto golpe a golpe, sabiendo asimilar las nuevas tendencias, pero no traicionando nunca su espíritu que navega entre el pop híper melódico y la música de baile más eufórica. Pero es que su último single “Prometo No Olvidar” vuelve a ser un ejemplo de puntería e infalibilidad, como un puzle de 100.000 piezas lleno de pequeños detalles que hace que parezca fácil lo difícil.",
+        "price": 22222
+    },
+    {
+        "id": 3,
+        "type": "Vinyls",
+        "name": "Confidence Man, 'Confident Music for Confident People'(2018)",
+        "description": "Here is a set of songs that take the kind of allconsuming interior monologues that bored, disaffected youth are wrestling with the world over and places them square in the middle of the dancefloor before adding call-and-response choruses for good measure.It's the best collection of perfect pop music you'll hear all year, the perfect embodiment of the characters that made it that somehow manages to be both wildly ambitious and deceptively simple at the same time.",
+        "price": 33
+    },
+    {
+        "id": 4,
+        "type": "Books",
+        "name": "'Cine Bizarro' by Diego Curbero",
+        "description": "Cuántas personas despiertas en las trasnoches de los viejos cines del mundo, con la cabeza llena de imágenes de todas las películas que vieron, sus venas inyectadas de celuloide y de Blu-rays pulverizados contra la pantalla, de películas silentes o con sonido, de gritos de angustia, de terror, de sexo y muerte. Obra de erudición y delirio para los fans del cine y los enciclopedistas más morbosos",
+        "price": 4444
+    },
+    {
+        "id": 5,
+        "type": "Books",
+        "name": "'Melancholy Elephants' by Spider Robinson",
+        "description": "The award-winning author portrays a quirky cosmic world where memories span centuries, mankind's vast potential has been reached, and the farthest frontiers of space have been conquered",
+        "price": 5555
+    },
+    {
+        "id": 6,
+        "type": "Books",
+        "name": "'Babyfucker' by Urs Allerman",
+        "description": "A Beckettian character, who may or may not be trapped in a room with four baskets full of infants, focuses obsessively on a single sentence—'I fuck babies.' This virtuoso text by Swiss experimental writer Urs Allemann won the prestigious Ingeborg Bachmann Preis des Landes Kärnten in 1991 and caused one of the biggest literary scandals in the post-1945 German-speaking world. ",
+        "price": 6666
+    },
+    {
+        "id": 7,
+        "type": "Freeform",
+        "name": "Popsticks",
+        "description": "They were made to be stick on the walls of some 'pretend to be an adult' kind of person and leave a stain. Just to remind them that everything tidy in their houses doesn't make them adults but hipocrits and boring. Or even better than the rest. It is an option to explain the purpuse of the object to the victim that will be you when they'll get mad about your attempt of 'vandalism'. Object just for people that belive to be artists +18.",
+        "price": 777
+    },
+    {
+        "id": 8,
+        "type": "Freeform",
+        "name": "A heart",
+        "description": "A heart to play with (it will be selected accoding to your preferences we recommend one of somebody you don't know so you don't have to remember for much time how vulgar you are)",
+        "price": 888
+    },
+    {
+        "id": 9,
+        "type": "Freeform",
+        "name": "Just four boxes",
+        "description": "This single object pretend to have more stuff than you actually do or to tell somebody that you don't want as a visitor but cant tell them to leave. So you use the boxes as an excuse of 'selecting things to donate!', 'wanting to move' (add acting of crazyness) or 'adopted a new pink snake that doesnt have a cage yet'.Next month we'll have an animal hat and print handkerchif  with blood to make them think that as the snakes are not moving much you might just killed them. It would also serve you as when you want top lay the victim and act as victim of a jungle but with style",
+        "price": 999
+    }
+]

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> Kitsch store</title>
+    <link rel="shortcut icon" href="/pictures of inhumanity/cart.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1> Kitsch </h1>
+            <div class="filtered">
+                <div class="filter">
+                    <label for="type"></label>
+                    <select id="type">
+                        <option value="">All</option>
+                        <option value="Vinyls"> Vinyls </option>
+                        <option value="Books"> Books </option>
+                        <option value="Freeform"> Freeform </option>
+                    </select>
+                </div>
+            </div>
+            <ul>
+                <li><a class="btn-cart" href="./cart.html"><i class="fa-solid fa-cart-shopping"></i><span id="amount-cart">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="store-container">
+            <div class="card-container">
+                <div class="card" data-type="Vinyls" data-price="11">
+                    <div class="content">
+                        <h1>"The Sparks, 'HalfNelson' (1971)"</h1>
+                        <img src="pictures of inhumanity/sparks.jpg" alt="">
+                        <p>In 1972 this album is re-released, the name of the band becomes 'Sparks' (same members, same songs with a different jacket).Unlike most other early pressings of this record, this particular version did not come with a Warner Bros. company inner sleeve nor did it come with a lyric insert. These copies appear to be hastily put together to use up the old jackets <br>$11</p>
+                        <button id="1" class="btn-purchase"> Buy or leave </button>
+                    </div>
+                </div>
+                <div class="card" data-type="Vinyls" data-price="22222">
+                    <div class="content">
+                        <h1> "La casa azul, "Prometo No Olvidar"(2023)"</h1>
+                        <img src="pictures of inhumanity/lacasaazul.webp" alt="">
+                        <p>"Se agotan los calificativos para Guille Milkyway y su capacidad de construir un cancionero pluscuamperfecto golpe a golpe, sabiendo asimilar las nuevas tendencias, pero no traicionando nunca su espíritu que navega entre el pop híper melódico y la música de baile más eufórica. Pero es que su último single “Prometo No Olvidar” vuelve a ser un ejemplo de puntería e infalibilidad, como un puzle de 100.000 piezas lleno de pequeños detalles que hace que parezca fácil lo difícil."<br>$22222</p>
+                        <button id="2" class="btn-purchase"> Buy or leave </button>
+                    </div>
+                </div>
+                <div class="card" data-type="Vinyls" data-price="33">
+                    <div class="content">
+                        <h1 class="h1">"Confidence Man, 'Confident Music for Confident People'(2018)"</h1>
+                        <img src="pictures of inhumanity/confidenceman.webp" alt="">
+                        <p>Here is a set of songs that take the kind of allconsuming interior monologues that bored, disaffected youth are wrestling with the world over and places them square in the middle of the dancefloor before adding call-and-response choruses for good measure.
+                        It's the best collection of perfect pop music you'll hear all year, the perfect embodiment of the characters that made it that somehow manages to be both wildly ambitious and deceptively simple at the same time. <br>$33 </p>
+                        <button id="3" class="btn-purchase"> Buy or leave </button>
+                    </div>
+                </div>
+                <div class="card" data-type="Books" data-price="4444">
+                    <div class="content">
+                        <h1>"'Cine Bizarro' by Diego Curbero"</h1>
+                        <img src="/pictures of inhumanity/cinebizarro.jpeg" alt="">
+                        <p>Cuántas personas despiertas en las trasnoches de los viejos cines del mundo, con la cabeza llena de imágenes de todas las películas que vieron, sus venas inyectadas de celuloide y de Blu-rays pulverizados contra la pantalla, de películas silentes o con sonido, de gritos de angustia, de terror, de sexo y muerte. Obra de erudición y delirio para los fans del cine y los enciclopedistas más morbosos<br>$4444</p>
+                        <button id="4" class="btn-purchase">Buy or leave</button>
+                    </div>
+                </div>
+                <div class="card" data-type="Books" data-price="5555">
+                    <div class="content">
+                        <h1>"'Melancholy Elephants' by Spider Robinson" </h1>
+                        <img src="/pictures of inhumanity/melancholye.jpeg" alt="">
+                        <p>"The award-winning author portrays a quirky cosmic world where memories span centuries, mankind's vast potential has been reached, and the farthest frontiers of space have been conquered"<br>$5555</p>
+                        <button id="5" class="btn-purchase">Buy or leave </button>
+                    </div>
+                </div>
+                <div class="card" 
+                data-type="Books" data-price="6666">
+                    <div class="content">
+                        <h1>"'Babyfucker' by Urs Allerman"</h1>
+                        <img src="/pictures of inhumanity/babyfucker.jpg" alt="">
+                        <p>A Beckettian character, who may or may not be trapped in a room with four baskets full of infants, focuses obsessively on a single sentence—'I fuck babies.' This virtuoso text by Swiss experimental writer Urs Allemann won the prestigious Ingeborg Bachmann Preis des Landes Kärnten in 1991 and caused one of the biggest literary scandals in the post-1945 German-speaking world. </p>
+                        <button id="6" class="btn-purchase">Buy or leave </button>
+                    </div>
+                </div>
+                <div class="card" 
+                data-type="Freeform" data-price="6666">
+                    <div class="content">
+                        <h1> Popsticks </h1>
+                        <img src="/pictures of inhumanity/yellyicepops.jpeg" alt="">
+                        <p>They were made to be stick on the walls of some 'pretend to be an adult' kind of person and leave a stain. Just to remind them that everything tidy in their houses doesn't make them adults but hipocrits and boring. Or even better than the rest. It is an option to explain the purpuse of the object to the victim that will be you when they'll get mad about your attempt of 'vandalism'. Object just for people that belive to be artists +18.<br>$777</p>
+                        <button id="7" class="btn-purchase"> Buy or leave </button>
+                    </div>
+                </div>
+                <div class="card" 
+                data-type="Freeform" data-price="888">
+                    <div class="content">
+                        <h1> A heart</h1>
+                        <img src="/pictures of inhumanity/hearttoplay.jpeg" alt="">
+                        <p>A heart to play with (it will be selected accoding to your preferences we recommend one of somebody you don't know so you don't have to remember for much time how vulgar you are)<br>$888 </p>
+                        <button id="8" class="btn-purchase">Buy or leave </button>
+                    </div>
+                </div>
+                <div class="card" 
+                data-type="Freeform" data-price="999">
+                    <div class="content">
+                        <h1> Just four boxes </h1>
+                        <img src="/pictures of inhumanity/fourboxes.jpeg" alt="">
+                        <p>This single object pretend to have more stuff than you actually do or to tell somebody that you don't want as a visitor but cant tell them to leave. So you use the boxes as an excuse of 'selecting things to donate!','wanting to move' (add acting of crazyness) or 'adopted a new pink snake that doesnt have a cage yet'.Next month we'll have an animal hat and print handkerchif  with blood to make them think that as the snakes are not moving much you might just killed them. It would also serve you as when you want top lay the victim and act as victim of a jungle but with style<br>$999</p>
+                        <button id="9" class="btn-purchase">Buy or leave </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p> &copy; Kitsch & the company of Jack Skellington
+             </p>
+    </footer>
+    <script src="./logic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

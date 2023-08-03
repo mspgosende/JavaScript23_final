@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> Cart </title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1> Kitsch</h1>
+            <ul>
+                <li><a class="btn-back" href="./index.html"><i class="fa-solid fa-backward"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Cart</h2>
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Type </th>
+                        <th> Name </th>
+                        <th> Price </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+
+                </tbody>
+            </table>
+            <h4 id="total">Amount to pay $:</h4>
+            <button id="btn-end"> End purchase </button>
+            <p id="final-message"></p>
+        </div>
+    </main>
+    <footer>
+        <p> &copy; Kitsch Store</p>
+    </footer>
+    <script src="./logic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
