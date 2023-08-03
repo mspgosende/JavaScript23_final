@@ -14,8 +14,6 @@ body {
 	min-height: 100vh;
 }
 
-/* ESTILOS DEL HEADER */
-
 header {
 	background-color: rgb(117, 49, 124);
 	padding: 15px;
@@ -107,16 +105,6 @@ select {
 	background-color: rgb(255, 255, 255);
 }
 
-/* ESTILOS DEL FOOTER */
-
-footer {
-	margin-top: auto;
-	text-align: center;
-	background-color: rgb(3, 3, 3);
-	color: rgb(255, 255, 255);
-	padding: 10px;
-}
-
 /* Kitsch */ 
 
 .store-container {
@@ -195,13 +183,9 @@ footer {
 	text-transform: uppercase;
 }
 
-
 .btn-compra:hover {
 	background-color: blueviolet;
 }
-
-
-/* ESTILOS DEL CARRITO EN GENERAL */
 
 main {
 	padding: 20px;
@@ -312,9 +296,15 @@ select {
 	color: #333;
 	border-radius: 20px;
   }
-  
 
-/* ESTILOS RESPONSIVE DE 1024 a 320 */
+footer {
+	margin-top: auto;
+	text-align: center;
+	background-color: rgb(3, 3, 3);
+	color: rgb(255, 255, 255);
+	padding: 10px;
+} 
+
 
 @media (max-width: 1024px) {
 	.card-container {
